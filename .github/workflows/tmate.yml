@@ -1,3 +1,11 @@
+name: TMATE
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
 jobs:
   debug:
     runs-on: macos-latest
